@@ -16,8 +16,50 @@
  - [flask](https://flask.palletsprojects.com/en/3.0.x/)
  - [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/3.1.x/)
  - [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
- - Frontend: HTML, CSS, JavaScript (for the user interface)
+ - Frontend: HTML, CSS (for the user interface)
  - Backend: flask, flask-SQLAlchemy
   - Database: SQLite (for storing tasks)
 
+
+
+## Deployment & Installation 
+
+Create a directory 
+
+```bash
+ cd <app-name>
+```
+
+let's clone the Repository
+```bash
+git clone https://github.com/parth1609/SnapNote.git
+```
+
+To install flask,flask-SQLAlchemy
+
+```bash
+  pip install flask
+  pip install flask-SQLAlchemy
+```
+
+setup the flask environment 
+
+```bash
+    .\env\Scripts\activate.ps1
+```
+
+To install jinja2
+```bash
+pip install jinja2
+```
+
+To Run the main file in environment
+```bash
+python .\app.py
+```
+
+Quit from environment
+```bash
+ctrl + c
+```
 
