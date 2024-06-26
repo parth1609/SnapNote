@@ -53,6 +53,11 @@ To install jinja2
 pip install jinja2
 ```
 
+To create database
+```bash
+db.create_all()
+```
+
 To Run the main file in environment
 ```bash
 python .\app.py
