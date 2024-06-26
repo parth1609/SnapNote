@@ -35,11 +35,20 @@ let's clone the Repository
 git clone https://github.com/parth1609/SnapNote.git
 ```
 
-To install flask,flask-SQLAlchemy
-
+install virtual environment
 ```bash
-  pip install flask
-  pip install flask-SQLAlchemy
+pip install virtualenv
+```
+
+if you get the error while install virtual environment
+run this command in power shell admin
+```bash
+Set-ExecutionPolicy Unristricted
+```
+
+create environment
+```bash
+virtualenv env
 ```
 
 setup the flask environment 
@@ -47,6 +56,14 @@ setup the flask environment
 ```bash
     .\env\Scripts\activate.ps1
 ```
+To install flask,flask-SQLAlchemy
+
+```bash
+  pip install flask
+  pip install flask-SQLAlchemy
+```
+
+
 
 To install jinja2
 ```bash
